@@ -4,7 +4,8 @@
     <title>RegEX</title>
 </head>
 <body>
-    
+    <style> div {text-align: center;} </style>
+<div>
     <h1>Welcome to Regex Application</h1>
 
     <form action = "" method="post">
@@ -28,9 +29,9 @@
     {% endfor %}
     {% elif count==-1 %}
     {% else %}
-    <h2> Total Matches = {{count}} </h2>
+    <h2> No Match Found!!! </h2>
     {% endif %}
-
+</div>
     
 </body>
 </html>
