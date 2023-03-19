@@ -22,7 +22,7 @@ def index_page():
 
         #returning the variables from the backend so that we can display it back to the frontend
         return render_template('index.html', count = c, matches = matches, t = txt, reg = reg_exp)
-    return render_template('index.html',count=-1)
+    return render_template('index.html', count = -1)
 
 
 if __name__ == '__main__':
